@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9987c7fd_c67578de",
+        "filename": "system.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000406
+      },
+      "writtenOn": "2017-06-08T08:03:15Z",
+      "side": 1,
+      "message": "See this: https://forum.xda-developers.com/redmi-note-4/how-to/guide-enable-volte-video-calling-custom-t3606910 There seems to be conflicting positions regarding HAL3 and VoLTE. The poster here says he disabled HAL3 and he got VoLTE back which conflicts with the solution in this commit.",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 29
+      },
+      "revId": "537273af2903b9337c09564c264dd4bb446c6209",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
