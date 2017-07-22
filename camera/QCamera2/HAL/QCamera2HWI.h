@@ -279,7 +279,7 @@ public:
     virtual QCameraHeapMemory *allocateMiscBuf(cam_stream_info_t *streamInfo);
     virtual QCameraMemory *allocateStreamUserBuf(cam_stream_info_t *streamInfo);
     virtual void waitForDeferredAlloc(cam_stream_type_t stream_type);
-
+    static uint32_t sessionId[MM_CAMERA_MAX_NUM_SENSORS];
     // Implementation of QCameraThermalCallback
     virtual int thermalEvtHandle(qcamera_thermal_level_enum_t *level,
             void *userdata, void *data);
@@ -795,6 +795,6 @@ private:
     bool bDepthAFCallbacks;
 };
 
-}; // namespace qcamera
+}; // namespace qcamera 
 
 #endif /* __QCAMERA2HARDWAREINTERFACE_H__ */
