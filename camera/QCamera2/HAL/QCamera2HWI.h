@@ -795,6 +795,6 @@ private:
     bool bDepthAFCallbacks;
 };
 
-}; // namespace qcamera 
+}; // namespace qcamera
 
 #endif /* __QCAMERA2HARDWAREINTERFACE_H__ */

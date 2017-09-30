@@ -1050,6 +1050,7 @@ vendor/lib64/libquipc_os_api.so|a136014be9376030248c1edaa831a9e8a44767f2
 vendor/lib64/libsmemlog.so|b9178d993626d2ba6a2a11716a106a73edde475c
 
 # Radio - from oxygen (MiMax 2)
+-app/QtiTelephonyService/QtiTelephonyService.apk|2d1588b58ed5854986430d44a2f31fcc3bf634c7
 -app/datastatusnotification/datastatusnotification.apk|67afde50cd8ca137105f8da3d3bc0c3edf9fbb66
 -app/embms/embms.apk|1c75d48f0b96bdad3db0d46ad997e3d901ccbe68
 -app/fastdormancy/fastdormancy.apk|13b604b080309fa56277328f741894044678bebe
@@ -1064,6 +1065,7 @@ etc/data/netmgr_config.xml|824c5c864d1639215d7f325f4577493f769a27f6
 etc/permissions/embms.xml|5e1b492874c221a7e1188fc3a5369d32b3e67969
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
+framework/QtiTelephonyServicelibrary.jar|ffa067588e04779702f37cd6465547e2fb5a9ec9
 framework/embmslibrary.jar|a06799495515305de3e5d432ec62a1f692200c99
 -framework/qcrilhook.jar|58424bd3cde045b605b6493c449a80c35a1fa253
 framework/qti-telephony-common.jar|fdbf4482b029cf4bc57e1f19d9f62c0783166de8
@@ -1083,7 +1085,6 @@ vendor/lib64/librilqmiservices.so|a3ba7243404583b64f2b2a2444bb6458cbb2330e
 vendor/lib64/libsettings.so|c763cafb33a41a7d82f6f67506355a37dee386e2
 vendor/lib64/libsystem_health_mon.so|1b0488d2aa7a8500f9e8def0c9e8c9ddbb0bb3fc
 vendor/qcril.db|c33dbcb0dd5c3deeae801fb1fc01d80ad6d68441
->>>>>>> 61fc1c5... mido: Kang blobs from oxygen 7.1.1 release
 
 # Radio - IMS - from oxygen (MiMax 2)
 bin/ims_rtp_daemon|2155d928832594933ebfb79ee29319ff5d3e250c
